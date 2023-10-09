@@ -1,0 +1,91 @@
+.main{
+    background-color: rgb(255, 208, 165);
+    font-family:Arial;
+    margin-top:0px;
+    height:1200px;
+    
+}
+.form{
+    height: 900px;
+    width:450px;
+    border:none;
+    background-color: white;
+    margin-left:200px;
+    padding-left:7px;
+    margin-top:20px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+    border-radius:2px;
+}
+p{
+    font-size:15px;
+    margin-bottom:7px;
+    margin-top:0;
+
+}
+input{
+    font-size: 15px;
+    width:400px;
+    padding-top:6px;
+    padding-bottom: 6px;
+    padding-left:5px;
+    margin-bottom:10px;
+}
+.details{
+   padding-top: 10px;
+   padding-left:10px;
+   padding-bottom:0px;
+}
+select{
+    width: 400px;
+    padding-top:6px;
+    padding-bottom:6px;
+    padding-left:4px;
+    font-size:12px;
+}
+.det{
+    margin-top:20px;
+    margin-left:10px;
+}
+input[type="radio"]{
+    width:auto;
+}
+input[type="checkbox"]{
+    width:auto;
+}
+.sub{
+    background-color: rgb(255, 208, 165);
+    width:410px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+    border:none;
+    margin-left:10px;
+    font-size:15px;
+    margin-top:15px;
+    cursor: pointer;
+    font-style:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

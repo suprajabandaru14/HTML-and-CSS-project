@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my survery</title>
+    <link rel="stylesheet" href="surveryform.css">
+</head>
+<body>
+    <div class="main">
+        <h style="font-size: 40px; padding-left:260px; color:white;font-weight: bold;">My Survery Form</h>
+        <div class="form">
+            <div class="details">
+                <p>Name</p>
+                <input type="text" class="input" placeholder="Enter your name">
+            </div>
+            <div class="details">
+                <p>Email</p>
+                <input type="email" class="input" placeholder="Enter your email">
+            </div>
+            <div class="details">
+                <p>Age</p>
+                <input type="number" class="input" placeholder="Enter your age">
+            </div>
+            <div class="details">
+                <p>Which option best describes you ?</p>
+                <select>
+                    <option value="Student">Student</option>
+                    <option value="Intern">intern</option> 
+                    <option value="Professional">professional</option>
+                    <option value="Other">other</option>
+                </select>
+            </div>      
+            <div class="det">
+                <p>Would you recommend it to your friends?</p>
+                <input type="radio" class="but" name="r">Yes<br>
+                <input type="radio"class="but" name="r">No<br>
+                <input type="radio"class="but"name="r">Maybe
+            </div>
+            <div class="det">
+                <p> Languages and Frameworks Known :</p>
+                <input type="checkbox" name="c">C<br>
+                <input type="checkbox"name="c">C++<br>
+                <input type="checkbox"name="c">C#<br>
+                <input type="checkbox"name="c">Java<br>
+                <input type="checkbox"name="c">Python<br>
+                <input type="checkbox"name="c">Javascript<br>
+                <input type="checkbox"name="c">React<br>
+                <input type="checkbox"name="c">Angular<br>
+                <input type="checkbox"name="c">Django<br>
+            </div>
+            <div class="det">
+                <p>Any comments or suggestins</p>
+                <textarea rows="2" cols="50"></textarea>
+            </div>
+            <button class="sub">Submit</button>
+
+        </div>
+    </div>
+    
+</body>
+</html>
